@@ -676,8 +676,8 @@ margin-bottom: 20px;
     transition: 250ms top cubic-bezier(0.4,0,0.2,1);
 
 }
-.footer-links:hover,
-.footer-links:focus {
+.footer-li:hover,
+.footer-li:focus {
     background-color: var(--accent-color);
  
 }
