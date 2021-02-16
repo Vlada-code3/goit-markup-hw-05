@@ -865,7 +865,7 @@ letter-spacing: 0.03em;
 }
 .projects-items:hover .overlay-text{
     top: 0%;
-    transition: 250ms top cubic-bezier(0.4,0,0.2,1);
+    
 }
 
 
