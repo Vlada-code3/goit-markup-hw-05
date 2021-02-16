@@ -56,15 +56,18 @@ margin: 0;
  
 .link:hover {
     color: var(--accent-color );
-     transition: 250ms top cubic-bezier(0.4,0,0.2,1);
+     
    
 }
 .link:focus {
     color: var(--accent-color );
+    border: none;
      
 }
 .contact-link {
     color: var(--primary-text-color);
+    transition: 250ms color cubic-bezier(0.4,0,0.2,1);
+
      
 }
 .contact-link:hover,
@@ -79,6 +82,7 @@ margin: 0;
 .hero-button {
     color: #FFFFFF;
     background-color: #2196F3 ;  
+    transition: 250ms background-color cubic-bezier(0.4,0,0.2,1);
 }
 
 
@@ -119,6 +123,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 text-align: left;
 color: #212121;
+transition: 250ms color cubic-bezier(0.4,0,0.2,1);
 
 }
 .nav-item:not(:last-child){
@@ -128,7 +133,7 @@ margin-right: 50px;
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
-    transition: 250ms border-color cubic-bezier(0.4,0,0.2,1);
+   
 }
 .logo-header {
     font-family: Raleway;
@@ -155,7 +160,7 @@ margin-right: 50px;
 .site-nav .link.current {
     color: #2196F3;
     position: relative;
-    transition: 250ms top cubic-bezier(0.4,0,0.2,1);
+    transition: 250ms color cubic-bezier(0.4,0,0.2,1);
 }
 .site-nav .link.current::after {
 position: absolute;
@@ -174,7 +179,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-transition: 250ms border-color cubic-bezier(0.4,0,0.2,1);
+
 }
 .mail, .tel {
     display: flex;
@@ -183,6 +188,7 @@ transition: 250ms border-color cubic-bezier(0.4,0,0.2,1);
     line-height: 1.2;
     font-weight: 500;
     color: var(--primary-text-color);
+    transition: 250ms color cubic-bezier(0.4,0,0.2,1);
     
 }
 .mail svg {
@@ -498,10 +504,10 @@ color: var(--primary-text-color);
     margin: auto;
     height: 44px;
     width: 44px;
-    transition: 250ms top cubic-bezier(0.4,0,0.2,1);
     
     
-}
+    
+} 
 .soc-link svg{
     height: 20px;
     width: 20px;
@@ -515,6 +521,7 @@ color: var(--primary-text-color);
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    transition:250ms background-color cubic-bezier(0.4,0,0.2,1);
     
     
 }
@@ -658,9 +665,11 @@ margin-bottom: 20px;
     border-radius: 50%;
         width: 44px;
     height: 44px;
-    transition: 250ms top cubic-bezier(0.4,0,0.2,1);
+     
+   
    
 }
+
 
 .footer-links:not(:nth-child(4n)) {
     margin-right: 10px;}
@@ -673,7 +682,7 @@ margin-bottom: 20px;
     margin: auto;
     border-radius: 50%;
     height: 100%;
-    transition: 250ms top cubic-bezier(0.4,0,0.2,1);
+    transition: 250ms background-color cubic-bezier(0.4,0,0.2,1);
 
 }
 .footer-li:hover,
@@ -684,7 +693,6 @@ margin-bottom: 20px;
  .footer-links:hover svg,
   .footer-links:focus svg {
        fill: #ffffff; 
-    transition: 250ms top cubic-bezier(0.4,0,0.2,1);
     }
 
 
